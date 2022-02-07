@@ -1,0 +1,65 @@
+/* Cards */
+
+  
+  
+  /* card-basic */
+  .card {  
+    display: flex;
+     width: 20rem;
+    flex-direction: column;
+    border-radius: 1rem;
+  background-color: whitesmoke;
+    margin: 1rem auto;
+    overflow: hidden;
+    /* overflow-hidden makes image fit inside div w/o showing pointy corners */
+  }
+  
+  .card-title{
+    padding:0.5rem;
+  }
+  .card-header {
+    font-size: 20px;
+    padding: 0.5rem 1rem;
+  }
+  .card-subtitle {
+    color: gray;
+    font-style: italic;
+    font-size: 16px;
+    padding-left: 1rem;
+  }
+  .card-text {
+    padding: 1rem;
+  }
+  .hor-flex {
+    display: flex;  
+    justify-content: space-between;
+  }
+  .card-icons{
+     margin-left: auto;
+  }
+  .card-icons *{
+    padding:0.5rem;
+  }
+  .card-btn * {
+    color: blueviolet;
+    border: none;
+    background-color: none;
+    font-weight: 600; 
+    margin: 1rem;
+  }
+  .card-hor{
+    display: flex;
+    justify-content: space-around;
+  }
+ .card-hor *{
+ width: 50%;
+}
+.card-overlay{
+  display: flex; 
+  flex-direction: column;
+}
+.card-overlay .card-title *{
+  color: white;
+margin-top:-5rem;
+
+}
