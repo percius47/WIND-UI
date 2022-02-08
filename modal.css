@@ -1,0 +1,25 @@
+/* Modal */
+.modal {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background: var(--bg-white);
+    width: 20rem;
+    background-color: var(--smoke);
+  }
+  
+  .modal hr {
+    margin: 1rem 0;
+  }
+  
+  .modal p {
+    font-size: 1rem;
+    width: 20rem;
+  }
+  
+  .modal-btn {
+    display: flex;
+    gap: 1rem;
+    font-size: 1rem;
+    justify-content: flex-end;
+  }
