@@ -1,0 +1,20 @@
+.list{
+    list-style: none;
+    margin: 0.5rem;
+  }
+  .list-hor{
+    text-align: center;
+  }
+  .list-item{
+    font-weight: 600;
+  }
+  .list-hor li{
+  display: inline;
+  margin: 0.5rem 1rem;
+  }
+  .list-ver{
+    text-align: center;
+  }
+  .list-ver li{
+  margin: 1rem auto;
+  }
