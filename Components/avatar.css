@@ -1,0 +1,22 @@
+/* Avatar */
+.avatar{
+    margin: 0.5rem;
+    position: relative;
+    display: inline;
+  }
+  .avatar img{
+    border-radius: 50%;
+  }
+  .avatar-img-std{  
+    height: 3rem;
+  }
+  .avatar-img-lg{
+    height: 3.5rem;
+  }
+  .avatar-img-xl{
+    height: 4.5rem;
+  }
+  .avatar-img-sm{
+    height: 2rem;
+  }
+  
