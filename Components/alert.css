@@ -1,0 +1,26 @@
+/* Alert */
+
+.alert{
+    margin: 0.75rem auto;
+    padding: 0.75rem;
+    font-weight: 400;
+    width:max-content;
+    max-width: 50%;
+    border-radius: 0.5rem;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .alert-danger{
+    background-color: #f8d7da;
+  }
+  .alert-success{
+    background-color: #d1e7dd;
+  }
+  .alert-warning{
+    background-color: #fff3cd;
+  }
+  .alert-info{
+    background-color: #cff4fc;
+  }
