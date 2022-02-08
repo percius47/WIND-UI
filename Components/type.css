@@ -1,0 +1,21 @@
+/* Typography */
+.h-it{
+    font-style: italic;
+  }
+  .h-bld{
+    font-weight: bold;
+  }
+  .h-light{
+    font-weight: 300;
+  }
+  .h-lighter{
+  font-weight: 100;
+  }
+  .gr-text{
+    display: block;
+    color: gray;
+  }
+  .cntr-text{
+    width: 100%;
+    text-align: center;
+  }
