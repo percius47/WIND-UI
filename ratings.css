@@ -1,0 +1,12 @@
+/* ratings */
+
+.ratings {
+    display: flex;
+    align-content: center;
+  }
+  
+  .r-star {
+    color: var(--star);
+    cursor: pointer;
+  }
+  
