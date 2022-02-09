@@ -24,7 +24,7 @@ a, a:hover, a:visited, a:active,.comp-link {
 
    .hero{
      text-align: center;
-     
+     min-width: 348px;
    }
    .hero-img{
      margin-top: 3rem;
