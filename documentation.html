@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>WIND UI</title>
         <link rel="stylesheet" href="./Components/nav.css" />
+        <link rel="stylesheet" href="./css/sidebar.css" />
         <link rel="stylesheet" href="./styles.css" />
      
         <link
@@ -17,20 +18,54 @@
 <body>
     <!-- Navigation -->
     <div class="nav">
-        <div class="nav-logo" >
-            <a class="comp-link" href = "./index.html">
-          <img src="./Images/logo-text.png"  alt="Logo">
-        </a>
-        </div>
-        <div class="nav-menu">
-         <ul class="nav-options">
-          
-            <li class="nav-item">  <a class="btn-link" href = "./documentation.html">Documentation</a></li>
-            <li class="nav-item">Installation</li>
-            <li class="nav-item">Resources</li>
-          </ul>
-        </div>
+      <div class="nav-logo" >
+        <img src="./Images/logo-text.png" alt="Logo">
+        <h1 class="nav-h1">WIND UI</h1>
       </div>
-    <h1>Documentation Page</h1>
+      <div class="nav-menu">
+       <ul class="nav-options">
+        
+          <li class="nav-item">  <a class="btn-link" href = "">Socials</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- main content -->
+    <div class="body-wrapper">
+      <aside class="sidebar">
+        
+          <ul class="side-list">
+            <a href="./documentation.html">
+            <li class="side-items side-active">Getting Started</li></a>
+            <a href="./Components/avatar.html"><li class="side-items ">Avatar</li></a>
+            <a href="./Components/alert.html"><li class="side-items ">Alert</li></a>
+            <a href="./Components/badge.html">
+            <li class="side-items ">Badge</li></a>
+            <a href="./Components/button.html">
+            <li class="side-items ">Button</li></a>
+            <a href="./Components/card.html">
+            <li class="side-items ">Cards</li></a>
+            <a href="./Components/grid.html">
+              <li class="side-items ">Grid</li></a>
+              <a href="./Components/image.html">
+            <li class="side-items ">Image</li></a>
+            <a href="./Components/input.html">
+            <li class="side-items ">Input</li></a>
+            <a href="./Components/list.html">
+            <li class="side-items ">List</li></a>
+            <a href="./Components/modal.html">
+            <li class="side-items ">Modal</li></a>
+            <a href="./Components/nav.html">
+            <li class="side-items ">Navigation</li></a>
+            <a href="./Components/toast.html">
+              <li class="side-items ">Toast</li></a>  
+            <a href="./Components/type.html">
+            <li class="side-items ">Typography</li></a>
+          </ul>
+      </aside>
+      <main class="content">
+        <h1>content</h1>
+      </main>
+    </div>
+    
 </body>
 </html>
