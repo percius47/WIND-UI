@@ -15,7 +15,21 @@
   --star: rgb(255, 217, 0);
   --danger:rgb(221, 69, 69);
 }
-a, a:hover, a:visited, a:active,.comp-link {
+.body-wrapper{
+  display: grid;
+  width: 100%;
+  height: calc(100vh-10rem);
+  grid-gap: 1rem;
+grid-template-columns: repeat(5, [col-start] 1fr);
+}
+/* .body-wrapper *{
+  display: flex;
+  /* justify-content: center;
+  align-items: center;
+  flex-direction: column; 
+} */
+
+a, a:hover, a:visited, a:active,.comp-link,.btn-link {
     color: inherit;
     text-decoration: none;
    }
@@ -48,3 +62,38 @@ a, a:hover, a:visited, a:active,.comp-link {
        color: var(--primary-color);
        border: 1px solid var(--primary-color);
      }
+     .intro{
+      width: 100%;
+      padding: 1rem auto;
+      margin: 1rem auto;
+      box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;   
+  }
+  .intro p,h3,li{
+      padding: 1rem 2rem;
+      width: 80%;
+      
+  }
+  .intro h1{
+    padding: 1rem;
+    width: 80%;
+  }
+  
+     .code-parent{
+       background-color: var(--primary-color);
+       color: white;
+       margin: 1rem auto;
+       width: 95%;
+       border-radius: 0.5rem;
+     }
+
+   code {
+     width: 30%;
+    margin: 0 auto;
+    padding: 0.5rem;
+   }
+   .separator {
+    height: 0.0625rem;
+    background-color: rgb(212, 212, 212);
+    width: 90%;
+    margin: 0 auto;
+}

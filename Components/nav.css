@@ -52,6 +52,11 @@
     font-size: 1.2rem;
     margin: 0 1rem;
   }
+  .social-icon{
+    fill: white;
+    height: 7%;
+    width: 7%;
+  }
   .nav-item:hover{
     cursor: pointer;
     text-decoration: underline;
