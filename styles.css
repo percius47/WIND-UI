@@ -104,3 +104,6 @@ a, a:hover, a:visited, a:active,.comp-link,.btn-link {
     width: 90%;
     margin: 0 auto;
 }
+.author{
+  font-weight: 600;
+}
