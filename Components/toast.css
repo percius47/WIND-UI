@@ -1,5 +1,5 @@
 /* toast */
-
+@import url("./button.css");
 .toast {
     padding: 0.5rem 2rem;
     font-size: 1rem;
