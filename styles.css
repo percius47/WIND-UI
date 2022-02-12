@@ -64,18 +64,21 @@ a, a:hover, a:visited, a:active,.comp-link,.btn-link {
      }
      .intro{
       width: 100%;
-      padding: 1rem auto;
+      padding-top: 1rem ;
+      padding-bottom: 1rem;
       margin: 1rem auto;
       box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;   
   }
-  .intro p,h3,li{
-      padding: 1rem 2rem;
+  .intro-child{
+     padding: 1rem;
       width: 80%;
+      font-weight: 400;
       
   }
   .intro h1{
     padding: 1rem;
     width: 80%;
+    font-weight: 400;
   }
   
      .code-parent{
@@ -84,12 +87,16 @@ a, a:hover, a:visited, a:active,.comp-link,.btn-link {
        margin: 1rem auto;
        width: 95%;
        border-radius: 0.5rem;
+        flex-wrap: wrap;
      }
 
-   code {
-     width: 30%;
-    margin: 0 auto;
+   .code-text {
+     display: flex;
+     flex-wrap: wrap;
+     width: 80%;
+    margin: 1rem;
     padding: 0.5rem;
+    
    }
    .separator {
     height: 0.0625rem;

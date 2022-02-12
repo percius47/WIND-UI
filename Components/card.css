@@ -5,7 +5,7 @@
   /* card-basic */
   .card {  
     display: flex;
-     width: 20rem;
+     width: 40%;
     flex-direction: column;
     border-radius: 1rem;
   background-color: whitesmoke;

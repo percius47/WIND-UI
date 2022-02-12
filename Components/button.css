@@ -39,7 +39,7 @@
   .btn-icon{
     background-color: transparent;
     border-radius: 50%;
-   color: rgb(23, 23, 133);
+   color: var(--primary-color);
   }
   .btn-icon:hover{
     background-color: rgb(246, 236, 246);
@@ -47,6 +47,8 @@
   .btn-float{
     border-radius: 50%;
     color: whitesmoke;
-    background-color: darkblue;
+    background-color: var(--primary-color);
   }
-  
+  .btn-float span{
+    margin: 1px;  
+  }

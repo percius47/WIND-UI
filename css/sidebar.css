@@ -46,7 +46,7 @@ text-decoration: 4px solid  underline;
     }
 }
 
-@media  screen and (max-width:810px) {
+@media  screen and (max-width:890px) {
     .side-items{
         font-size: 0.8rem;
     }

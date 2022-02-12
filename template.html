@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="./nav.css" />
         <link rel="stylesheet" href="../css/sidebar.css" />
         <link rel="stylesheet" href="../styles.css" />
-        <link rel="stylesheet" href="./input.css">
+        <link rel="stylesheet" href="./alert.css">
         <link
           href="https://fonts.googleapis.com/icon?family=Material+Icons"
           rel="stylesheet"
@@ -50,7 +50,7 @@
       <a href="../documentation.html">
       <li class="side-items ">Getting Started</li></a>
       <a href="./avatar.html"><li class="side-items ">Avatar</li></a>
-      <a href="./alert.html"><li class="side-items ">Alert</li></a>
+      <a href="./alert.html"><li class="side-items side-active">Alert</li></a>
       <a href="./badge.html">
       <li class="side-items ">Badge</li></a>
       <a href="./button.html">
@@ -62,8 +62,8 @@
         <a href="./image.html">
       <li class="side-items ">Image</li></a>
       <a href="./input.html">
-      <li class="side-items side-active">Input</li></a>
-      <a href="./list.html">
+      <li class="side-items ">Input</li></a>
+      <a href=".s/list.html">
       <li class="side-items ">List</li></a>
       <a href="./modal.html">
       <li class="side-items ">Modal</li></a>
@@ -79,129 +79,68 @@
   <div class="intro">
 <!-- Alert -->
 
-<h1 class="intro-child">Input</h1>
+<h1 class="intro-child">Alert</h1>
 <div class="separator"></div>
-<p class="intro-child">Input specifies an input field where the user can enter data. The Input element is the most important form element. The Input element can be displayed in several ways, depending on the type attribute.</p>
+<p class="intro-child">An avatar is an icon or figure representing a person in a profile section or chat screens.</p>
 
 <!-- Import Component -->
 <pre class="code-parent intro-child" ><code class="html hljs xml code-text">
   <!-- CSS Import -->
-  @import url("https://windui.netlify.app/Components/input.css");
+  @import url("https://windui.netlify.app/Components/alert.css");
   <!-- HTML Import as Stylesheet -->
-  &lt;link rel="stylesheet" href="https://windui.netlify.app/Components/input.css"&gt;
+  &lt;link rel="stylesheet" href="https://windui.netlify.app/Components/alert.css"&gt;
           </code></pre>
 
 
-<h2 class="intro-child">Text Area</h2>
-<div class="input">
-  <label >Label</label>
-  <textarea cols="30" rows="5" class="inp-text" placeholder="Message.."></textarea>
+<h2 class="intro-child">Danger</h2>
+<div class="alert alert-danger">
+  A Danger Alert!!
+</div>
+<h2 class="intro-child">Success</h2>
+<div class="alert alert-success">
+  A Success Alert!!
+</div>
+<h2 class="intro-child">Warning</h2>
+<div class="alert alert-warning">
+  A Warning Alert!!
+</div>
+<h2 class="intro-child">Info Alert</h2>
+<div class="alert alert-info">
+  A Info Alert!!
 </div>
 
-<h2 class="intro-child">Text Box</h2>
-<div class="input">
-  <label >Label</label>
-  <input type="text" class="inp-text"/>
-</div>
-
-<div class="input">
-  <label >Label</label>
-  <input type="text" placeholder="John Doe" class="inp-text"/>
-</div>
-
-<div class="input">
-  <label >Label</label>
-  <input type="text" placeholder="anyone@example.com" class="inp-text"/>
-  <span class="inp-valid">Incorrect Email Address!!</span>
-</div>
-
-<h2 class="intro-child">Checkbox</h2>
-<div class="input">
-<label htmlFor="input-id-check" class="input-check-label">
-<input type="checkbox"  id="input-id-check" class="inp-check">
-Agree to Terms & Conditions
-</label>
-</div>
-
-<h2 class="intro-child">Slider</h2>
-<div class="input">
-  <input type="range" id="inp-id-slider" min="0" max="100" defaultValue="70" class="inp-slider">
-</div>
-
-<h2 class="intro-child">Ratings</h2>
-<div class="ratings intro-child">
-  <i class="material-icons r-star">star_outline</i>
-  <i class="material-icons r-star">star_outline</i>
-  <i class="material-icons r-star">star_outline</i>
-  <i class="material-icons r-star">star_outline</i>
-  <i class="material-icons r-star">star_outline</i>
-</div>
 <!-- Component code -->
 <pre class="code-parent"><code class="html hljs xml code-text">
-  Text Area
+  Alert Danger
 
-  &lt;div class="input">
-    &lt;label >Label&lt;/label>
-    &lt;textarea cols="30" rows="5" class="inp-text" placeholder="Message..">&lt;/textarea>
-  &lt;/div>
+  &lt;div class="alert alert-danger" &gt;
+    A Success Alert!!
+    &lt;/div &gt;
+ 
 
-  Text Box
+   Alert Success
 
-  &lt;div class="input">
-    &lt;label >Label&lt;/label>
-    &lt;input type="text" class="inp-text"/>
-  &lt;/div>
-  
-  &lt;div class="input">
-    &lt;label >Label&lt;/label>
-    &lt;input type="text" placeholder="John Doe" class="inp-text"/>
-  &lt;/div>
-  
-  &lt;div class="input">
-    &lt;label >Label&lt;/label>
-    &lt;input type="text" placeholder="anyone@example.com" class="inp-text"/>
-    &lt;span class="inp-valid">Incorrect Email Address!!&lt;/span>
-  &lt;/div>
+   &lt;div class="alert alert-success" &gt;
+   A Success Alert!!
+   &lt;/div &gt;
 
-  Checkbox
+   Alert Warning
 
-  &lt;div class="input">
-    &lt;label htmlFor="input-id-check" class="input-check-label">
-    &lt;input type="checkbox"  id="input-id-check" class="inp-check">
-    Agree to Terms & Conditions
-    &lt;/label>
-    &lt;/div>
+   &lt;div class="alert alert-warning" &gt;
+   A Success Alert!!
+   &lt;/div &gt;
 
-    Slider
+  Alert Info
 
-    &lt;div class="input">
-      &lt;input type="range" id="inp-id-slider" min="0" max="100" defaultValue="70" class="inp-slider">
-    &lt;/div>
-
-    Ratings
-
-    &lt;div class="ratings intro-child">
-      &lt;i class="material-icons r-star">star_outline&lt;/i>
-      &lt;i class="material-icons r-star">star_outline&lt;/i>
-      &lt;i class="material-icons r-star">star_outline&lt;/i>
-      &lt;i class="material-icons r-star">star_outline&lt;/i>
-      &lt;i class="material-icons r-star">star_outline&lt;/i>
-    &lt;/div>
+   &lt;div class="alert alert-info" &gt;
+   A Success Alert!!
+   &lt;/div &gt;
 
           </code></pre>
          </div>   
         </div>
       </div>
-      <script>
-        let ratingStar = document.querySelectorAll(".r-star");
-let starContainer = document.querySelector(".ratings");
-Object.values(ratingStar).map((star, idx) => {
-  star.addEventListener("click", () => {
-    if(star.innerText === "star_outline") for(let i = idx; i >= 0; i--) ratingStar[i].innerText = "star";
-    else for(let i = idx+1; i < ratingStar.length; i++) ratingStar[i].innerText = "star_outline";
-  })
-})
-      </script>
+      <script src="./script.js"></script>
   </body>
   </html>
   
