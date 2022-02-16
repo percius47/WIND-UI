@@ -22,12 +22,6 @@
   grid-gap: 1rem;
 grid-template-columns: repeat(5, [col-start] 1fr);
 }
-/* .body-wrapper *{
-  display: flex;
-  /* justify-content: center;
-  align-items: center;
-  flex-direction: column; 
-} */
 
 a, a:hover, a:visited, a:active,.comp-link,.btn-link {
     color: inherit;
