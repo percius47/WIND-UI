@@ -43,7 +43,7 @@
   }
   .nav-options{
     list-style: none;
-   margin: 1rem auto;
+   margin: 1rem ;
     width: 100%;
   
   }
@@ -61,10 +61,16 @@
   .nav-item:hover{
     cursor: pointer;
   }
+  .hamburger{
+    display: none;
+    cursor: pointer;
+  }
+  .hamburger span{
+    display: block;
+  margin: auto 1rem;
+  }
   @media  screen and (max-width:460px) {
-    .nav-menu{
-      display: none;
-    }
+    
    
     .nav{
    align-content: center;
@@ -79,12 +85,21 @@
     .nav-h1{
       font-size: 2rem;
     }
-    
+    .hamburger{
+      display: none;
+    }
+    .hamburger *{
+      display: none;
+    }
   }
 
   @media  screen and (max-width:810px) {
-.nav-item{
-  display: none;
-}
+    .nav-menu li{
+      display: none;
+    }
+    .hamburger{
+      display: block;
+    }
+
 
   }
