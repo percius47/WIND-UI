@@ -21,6 +21,7 @@
   height: calc(100vh-10rem);
   grid-gap: 1rem;
 grid-template-columns: repeat(5, [col-start] 1fr);
+min-width: 630px;
 }
 
 a, a:hover, a:visited, a:active,.comp-link,.btn-link {
@@ -76,6 +77,7 @@ a, a:hover, a:visited, a:active,.comp-link,.btn-link {
   }
   
      .code-parent{
+       display: flex;
        background-color: var(--primary-color);
        color: white;
        margin: 1rem auto;
